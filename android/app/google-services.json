@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471326304636",
+    "project_id": "bukuhub-85988",
+    "storage_bucket": "bukuhub-85988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471326304636:android:2f27ee91c59a1a20291cf9",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7L7HObdkHpb_6o1Ba474No5RrSNZvrBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
