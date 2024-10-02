@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'login_screen.dart';
 import 'signup_screen.dart';
 import 'dashboard_screen.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(); // Inisialisasi Firebase
+void main() {
   runApp(const MyApp());
 }
 
@@ -23,9 +20,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/login',
       routes: {
-        '/login': (context) => const LoginPage(),
-        '/signup': (context) => const RegisterPage(),
-        '/dashboard': (context) => const HomeScreen(),
+        '/login': (context) => LoginPage(), // Routing ke halaman lgoin
+        '/signup': (context) => RegisterPage(), // Routing ke halaman Register
+        '/dashboard': (context) => HomeScreen(),
       },
     );
   }
